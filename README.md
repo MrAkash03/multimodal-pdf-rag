@@ -40,36 +40,30 @@ PDF Document
       │
       ├───────────── Text Extraction
       │
-      └───────────── Image Extraction
+      └───────────── Image Extraction    
                       │
                       ▼
-                CLIP Embeddings
+                CLIP Embeddings              
                       │
                       ▼
-                 Image FAISS
+                 Image FAISS                 
                       │
                       ▼
 User Query ─────────► CLIP Text Encoder
-
       │
       ▼
-
  BGE Embeddings
       │
       ▼
  Text FAISS
-
       │
       ▼
-
 Retrieved Text + Images
       │
       ▼
-
 Qwen2.5-VL
       │
       ▼
-
 Generated Answer
 
 
